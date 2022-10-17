@@ -1,0 +1,28 @@
+{
+  "name": "@aikon/ual-ore",
+  "version": "0.1.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc --build tsconfig.json",
+    "lint": "tslint -p tsconfig.json"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "ORE-ID",
+    "url": "https://oreid.io/"
+  },
+  "dependencies": {
+    "@types/js-cookie": "^3.0.2",
+    "eosjs": "^22.1.0",
+    "oreid-js": "^4.3.0",
+    "oreid-webpopup": "^2.1.1",
+    "tsc": "^2.0.4",
+    "universal-authenticator-library": "^0.3.0"
+  },
+  "devDependencies": {
+    "ts-loader": "^7.0.4",
+    "tslint": "^6.1.2",
+    "typescript": "^4.8.3"
+  }
+}
